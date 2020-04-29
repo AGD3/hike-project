@@ -1,21 +1,53 @@
 body {
-    background-color: #333A35;
+    font-family: 'Muli';
+    /* background-color:#333a35; */
 }
 
-.container {
-    background-color: red;
-    width: 600px;
-    height: 100%;
-}
-
-/* .navigation-bar {
+/* navigation bar starts here */
+navbar {
+    background-color:#333a35;
     display: flex;
-    justify-content: flex-start;
-    height: 50px;
-    width: 7px;
+    /* justify-content: space-between; */
+    padding: 10px 500px 10px 20px;
+    
 }
 
-.hikelogo {
-    height: 7px;
-    width: 7px;
-} */
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+a:hover {
+    color: #eca419;
+  }
+
+.logo {
+      width: 60px;
+  }
+.fa {
+    color: #eca419;
+}
+
+.logo-container {
+    /* background-color: pink; */
+}
+
+.tab-container {
+    /* background-color: green; */
+    width: 80vw;
+    justify-content: space-evenly;
+    display: flex;
+ 
+
+}
+
+.icon-container {
+    width: 20vw;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
